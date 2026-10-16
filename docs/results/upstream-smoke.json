@@ -1,0 +1,52 @@
+{
+  "scope": "Repeated public-image fixture; real upstream configuration execution, not accuracy evidence",
+  "source_sha256": "2328b6152037407f7296d10759a3b9a8c2ae11c901e693998b3c7697605b0320",
+  "runs": [
+    {
+      "configuration": {
+        "model": "yolo11n.pt",
+        "tracker": "bytetrack",
+        "imgsz": 320,
+        "confidence": 0.25,
+        "sample_every": 1,
+        "tracker_options": {
+          "track_high_thresh": 0.3
+        }
+      },
+      "frames": 5,
+      "mean_ms": 491.54182000202127,
+      "cold_start_included": true,
+      "model_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    },
+    {
+      "configuration": {
+        "model": "yolo11n.pt",
+        "tracker": "botsort",
+        "imgsz": 640,
+        "confidence": 0.4,
+        "sample_every": 2,
+        "tracker_options": {
+          "match_thresh": 0.7
+        }
+      },
+      "frames": 3,
+      "mean_ms": 122.10719999469195,
+      "cold_start_included": true,
+      "model_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    },
+    {
+      "configuration": {
+        "model": "yolo11n.onnx",
+        "tracker": "bytetrack",
+        "imgsz": 640,
+        "confidence": 0.25,
+        "sample_every": 1,
+        "tracker_options": {}
+      },
+      "frames": 5,
+      "mean_ms": 138.4063800011063,
+      "cold_start_included": true,
+      "model_sha256": "9a99c2147ecc9ba370587d112d948394f338143f666d0fa58782df1ee53f9807"
+    }
+  ]
+}

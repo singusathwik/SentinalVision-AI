@@ -1,0 +1,12 @@
+{
+  "smoke_only": true,
+  "metrics": {
+    "metrics/precision(B)": 0.4537248856924174,
+    "metrics/recall(B)": 0.5833333333333334,
+    "metrics/mAP50(B)": 0.7093878786145899,
+    "metrics/mAP50-95(B)": 0.44027612893387474,
+    "fitness": 0.44027612893387474
+  },
+  "data": "coco8.yaml",
+  "run_id": "2d5964700e2d467684586cfb6f95ff13"
+}

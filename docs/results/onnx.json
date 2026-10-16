@@ -1,0 +1,22 @@
+{
+  "model": "yolo11n.onnx",
+  "device": "cpu",
+  "hardware": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "logical_cpus": 16,
+  "rss_mb": 430.2109375,
+  "batch": 1,
+  "imgsz": 640,
+  "warmup": 5,
+  "runs": 30,
+  "p50_ms": 44.083900000259746,
+  "p95_ms": 64.2361799989885,
+  "p99_ms": 77.52111100257027,
+  "fps": 21.069716531638335,
+  "stages_ms": {
+    "preprocess": 12.749870000213074,
+    "inference": 28.770916666447494,
+    "postprocess": 5.529376667012305
+  },
+  "scope": "decode excluded; model predict call; no tracking, rules or storage"
+}

@@ -1,0 +1,21 @@
+{
+  "video_id": "30a7f7a9-66cc-4254-a57b-23b606517238",
+  "job_id": "89add946-cdcd-52ef-9424-d5345e0174f5",
+  "rule_id": "f1ac3978-84d3-4433-84ff-34ea1f816c55",
+  "sample": "people-walking-20s.mp4",
+  "scope": "Moving-people pipeline demonstration; demo polygon is not a real restricted zone",
+  "state": "completed",
+  "events": 17,
+  "playback_bytes": 2159488,
+  "processed_frames": 200,
+  "frames_with_people": 200,
+  "person_track_ids": 17,
+  "maximum_people_in_frame": 9,
+  "track_id_note": "Tracker IDs are not a count of unique people; tracks may split or switch.",
+  "browser_playback": {
+    "duration": 20,
+    "currentTime": 1.012563,
+    "width": 768,
+    "height": 576
+  }
+}

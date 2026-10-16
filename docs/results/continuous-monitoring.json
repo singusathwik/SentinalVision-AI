@@ -1,0 +1,16 @@
+{
+  "segments": [
+    {
+      "job_id": "2f75196f-7d25-4490-bbae-b9f10e3ccef6",
+      "state": "completed",
+      "playback_bytes": 109947
+    },
+    {
+      "job_id": "0e30d499-a9f1-436c-982d-3fa0f8a7de5e",
+      "state": "completed",
+      "playback_bytes": 204270
+    }
+  ],
+  "stop_verified": true,
+  "scope": "localhost RTSP CPU fixture; segmented monitoring, not gapless capture or cross-segment tracking"
+}

@@ -1,0 +1,18 @@
+version: 1
+sources:
+  coco8_smoke:
+    url: https://docs.ultralytics.com/datasets/detect/coco8/
+    purpose: executable training smoke only; not a valid industrial evaluation
+    license: review COCO image source terms and Ultralytics dataset terms
+  coco:
+    url: https://cocodataset.org/#termsofuse
+    purpose: generic person/object baseline
+    license: annotations CC BY 4.0; images retain individual Flickr licenses
+  mot17:
+    url: https://motchallenge.net/data/MOT17/
+    purpose: tracking evaluation only after acquisition and license review
+    acquisition: manual; do not redistribute footage
+  industrial_ppe:
+    status: unavailable
+    acquisition: supply licensed manifest and independent source-video groups
+    required_classes: [person, forklift, helmet, vest]

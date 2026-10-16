@@ -1,0 +1,12 @@
+{
+  "job_id": "add21da1-d4b9-5130-90fd-fc26ee20b71e",
+  "video_id": "6d92daf5-41bb-438f-9c68-d6c1fb3391e9",
+  "sample": "people-walking-clean-labels.mp4",
+  "scope": "Same moving footage, new compact label renderer; unchanged detector and thresholds",
+  "state": "completed",
+  "playback_bytes": 1771551,
+  "frames_checked": 200,
+  "overlapping_label_pairs": 0,
+  "out_of_frame_labels": 0,
+  "python_tests_passed": 70
+}

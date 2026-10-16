@@ -1,0 +1,12 @@
+{
+  "source": "https://raw.githubusercontent.com/opencv/opencv/4.x/samples/data/vtest.avi",
+  "source_page": "https://github.com/opencv/opencv/blob/4.x/samples/data/vtest.avi",
+  "original_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+  "original_seconds": 79.5,
+  "sample_seconds": 20,
+  "fps": 10.0,
+  "width": 768,
+  "height": 576,
+  "five_second_frame_difference": 7.6776123046875,
+  "scope": "OpenCV moving pedestrian sample; not industrial safety ground truth"
+}

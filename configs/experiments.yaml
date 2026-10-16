@@ -1,0 +1,14 @@
+protocol_version: 1
+seed: 42
+selection_split: val
+final_report_split: test
+grouping_unit: source_video
+bootstrap_unit: source_video
+bootstrap_replicates: 2000
+questions:
+  RQ1: baseline and fine-tuned checkpoints on identical held-out sources
+  RQ2: ByteTrack and BoT-SORT with identical detections; MOT metrics require ground truth
+  RQ3: CPU PyTorch versus ONNX, fixed batch and shape, warm-up excluded
+  RQ4: event persistence ablation at 0, 0.5, 1 and 2 seconds
+  RQ5: model sizes n and s; resolutions 320 and 640
+promotion: require validation evidence before frozen test evaluation; never auto-promote smoke weights

@@ -1,0 +1,32 @@
+{
+  "job_id": "91ddd52c-7ba9-4022-9a8a-be30e3746055",
+  "status": "completed",
+  "preview": true,
+  "playback_bytes": 272671,
+  "telemetry": {
+    "timestamp": 14.705082400006358,
+    "dropped_frames": 65,
+    "reconnects": 0,
+    "timing": "source_pts",
+    "benchmark": {
+      "frames": 48,
+      "sampled_out": 0,
+      "dropped_frames": 65,
+      "reconnects": 0,
+      "p50_ms": 75.05189999938011,
+      "p95_ms": 91.57768999430118,
+      "p99_ms": 2173.652395993854,
+      "fps": 6.3126606367308264,
+      "device": "cpu",
+      "model": "yolo11n.pt",
+      "warmup": "none; cold start included",
+      "batch": 1,
+      "stages_ms": {
+        "preprocess": 1.4737979172423366,
+        "inference": 49.02391250046397,
+        "postprocess": 1.4906500012633235
+      }
+    }
+  },
+  "scope": "real localhost RTSP decoder + pretrained model on repeated public image; no physical camera validation"
+}

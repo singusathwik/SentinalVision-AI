@@ -1,0 +1,53 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: {version: '0.9.5', python-version: '3.12'}
+      - run: uv sync --frozen
+      - run: uv run ruff check services scripts tests ml infra
+      - run: uv run mypy
+      - run: uv run pytest --cov=sentinel
+      - run: uv run pip-audit
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run: {working-directory: apps/web}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22', cache: npm, cache-dependency-path: apps/web/package-lock.json}
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+      - run: npm audit
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: {version: '0.9.5', python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22', cache: npm, cache-dependency-path: apps/web/package-lock.json}
+      - run: uv sync --frozen
+      - run: npm ci --prefix apps/web
+      - run: npx playwright install --with-deps chromium
+        working-directory: apps/web
+      - run: uv run python scripts/e2e_stack.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browser-evidence
+          path: |
+            apps/web/test-results
+            docs/screenshots
+            data/e2e-stack/**/service-*.log
+  containers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f infra/Dockerfile.api .
+      - run: docker build -f infra/Dockerfile.web .

@@ -1,0 +1,25 @@
+# Security and responsible-use boundary
+
+Use only authorized footage and camera sources. There is no face recognition, sensitive identity profiling or cross-camera appearance re-identification. BoT-SORT ReID stays disabled. Machine observations require human review and are not certified safety controls.
+
+## Fixed findings and controls
+
+Full npm and installed-environment Python audits now report zero known vulnerabilities, including development/ML dependencies. The vulnerable braces chain was removed by replacing the Next ESLint preset dependency with maintained TypeScript/React/hooks/accessibility rules. DVC and its vulnerable diskcache dependency were removed from the locked environment; a narrow JSON/byte-hash pointer tool preserves local dataset verification. No unsafe version override, advisory suppression or patched-version claim was used. Historical findings remain in `docs/results/dependency-findings.json`; current audits have `-current` in their filenames.
+
+Local accounts use Argon2. JWTs require issuer, audience, expiration and a database session ID; logout revokes that session. Browser tokens stay in memory. Roles and tenant ownership are checked on private endpoints, including previews, playback, clips, deletion and signed URL issuance. Admins provision accounts only in their tenant. Login/upload rate buckets are database-shared and atomically incremented. They are fixed-window limits, not a global abuse-prevention service.
+
+Request bodies are bounded and spooled before multipart parsing, including chunked bodies. Uploads additionally enforce media decoding, duration and dimension limits. Generated storage keys are resolved under the private data root. Security response headers prohibit caching and framing. Production ingress still needs connection/time limits, TLS and independent decoder CPU/memory/process sandboxing.
+
+Camera URLs are encrypted with a Fernet key derived from the application secret and never returned to the browser. Changing that secret requires re-registering/re-encrypting camera records. Both hostname and every resolved IP must be explicitly allowlisted; connections use a pinned resolved address. Link-local, multicast and unspecified destinations are rejected; loopback requires an explicit fixture-only flag (off by default). Deploy network egress restrictions as defense in depth against protocol redirects and compromised cameras; this application is not a network firewall. Native decoder errors may reach process stderr, so keep decoder logs restricted and use credential-free proxy URLs for production ingestion.
+
+Local evidence is private. Optional S3 uses the service account's SDK credentials and 60-second presigned GETs only after tenant authorization. Anyone holding a signed URL can use it until expiry; revocation of a login cannot revoke an issued URL. Use a private bucket, least-privilege prefix permissions, lifecycle expiration, TLS, encryption at rest and protected logs. Moto emulation does not validate those cloud controls.
+
+The native worker runs retention at startup and each configured interval (default one hour; footage default seven days), skipping active jobs. API deletion and `scripts/retention.py --apply` share the same local/S3 cleanup logic. Audit rows remain. Durable cleanup tasks retry storage failures, and a 24-hour orphan sweep covers failed-attempt objects. Bucket lifecycle rules remain defense in depth. Production needs a separate audit retention and immutable-log policy.
+
+Jobs have database-backed idempotency, random claim tokens, fenced metadata writes and unique attempt artifact paths. Expired claims retry at most three times; operators can explicitly retry failed/canceled jobs. An outbox keeps job creation independent of broker availability and recovers expired broker claims. Real Redis/PostgreSQL multi-host behavior remains untested. The Celery outbox process also runs shared maintenance.
+
+Generic COCO weights do not support validated forklift/PPE detection. Proximity activation requires measured calibration and registered capability evidence; PPE needs explicit negative-class capability evidence. Detector confidence is not calibrated event probability; no invented tracker confidence is exposed. Source PTS and variable-rate playback preserve local timing gaps but do not establish synchronized camera-clock accuracy.
+
+Before external deployment, complete real-service/load testing, SSO/MFA, secret rotation, TLS, network egress restrictions, decoder sandboxing, production backup/restore and incident-response procedures. No cloud deployment or independent penetration test has occurred.
+
+Account lifecycle now includes disable/enable, roles and password resets with session revocation. Model registry uses provisioned trusted artifacts and exact hashes; imported validation is a human attestation. Audit exports use HMAC and protected-manifest verification; local privileged tampering still requires external immutable storage to prevent. Offline SQLite/media backup and restore have fixture tests. These controls do not imply production certification.

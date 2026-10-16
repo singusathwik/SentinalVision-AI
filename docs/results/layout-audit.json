@@ -1,0 +1,221 @@
+{
+  "results": [
+    {
+      "name": "Overview",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Live monitoring",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Video analysis",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Safety events",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Zone editor",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Analytics",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Model laboratory",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "System health",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Settings",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "elements": []
+    },
+    {
+      "name": "Overview",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Live monitoring",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Video analysis",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Safety events",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Zone editor",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Analytics",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Model laboratory",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "System health",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Settings",
+      "width": 390,
+      "scrollWidth": 390,
+      "elements": []
+    },
+    {
+      "name": "Overview",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Live monitoring",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Video analysis",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Safety events",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Zone editor",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Analytics",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Model laboratory",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "System health",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Settings",
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": []
+    },
+    {
+      "name": "Overview",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Live monitoring",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Video analysis",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Safety events",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Zone editor",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Analytics",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Model laboratory",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "System health",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    },
+    {
+      "name": "Settings",
+      "width": 768,
+      "scrollWidth": 768,
+      "elements": []
+    }
+  ],
+  "errors": []
+}

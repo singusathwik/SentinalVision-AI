@@ -1,0 +1,31 @@
+.venv/
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.env
+data/*
+!data/*.dvc
+!data/.gitignore
+datasets/*
+!datasets/*.dvc
+!datasets/.gitignore
+apps/web/.env.local
+*.pt
+*.onnx
+mlruns/
+runs/
+test-results/
+*.tsbuildinfo
+playwright-report/
+
+auto.key
+auto.crt
+
+# Downloaded sample footage stays local.
+sample videos/*.avi
+sample videos/*.mp4

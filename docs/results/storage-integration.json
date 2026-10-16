@@ -1,0 +1,7 @@
+{
+  "upload": true,
+  "presigned_http_get": true,
+  "cache_rehydration": true,
+  "delete": true,
+  "scope": "local Moto HTTP S3 emulator; not external S3/MinIO"
+}

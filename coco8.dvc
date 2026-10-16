@@ -1,0 +1,6 @@
+outs:
+- hash: md5
+  md5: 5cc2a5a0f2087c21e552d97160c3a7e0.dir
+  nfiles: 20
+  path: datasets/coco8
+  size: 466436

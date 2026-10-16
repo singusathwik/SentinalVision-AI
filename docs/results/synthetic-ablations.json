@@ -1,0 +1,709 @@
+{
+  "scope": "Synthetic trajectories only; tool verification, not industrial performance or statistical evidence",
+  "ablations": [
+    {
+      "persistence": 0,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.5,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.5,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.5,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.5,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.6,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.6,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.6,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.6,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.5,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.5,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.5,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.5,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.6,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.6,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 0.5,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 0.6,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 0.6,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 1,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": [
+        {
+          "rule_id": "r",
+          "rule_version": 1,
+          "kind": "intrusion",
+          "severity": "warning",
+          "timestamp": 1.0,
+          "started_at": 0.0,
+          "track_ids": [
+            1
+          ],
+          "classes": [
+            "person"
+          ],
+          "confidence": 0.8,
+          "reason": "track footpoint inside restricted polygon",
+          "status": "needs_review",
+          "duration": 1.0,
+          "condition_key": "r:1"
+        }
+      ]
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.25,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.25,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.5,
+      "sample_every": 1,
+      "exit_grace": 0.5,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0,
+      "events": []
+    },
+    {
+      "persistence": 2,
+      "confidence": 0.5,
+      "sample_every": 2,
+      "exit_grace": 0.5,
+      "events": []
+    }
+  ]
+}

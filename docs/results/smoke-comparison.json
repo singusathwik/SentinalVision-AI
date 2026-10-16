@@ -1,0 +1,94 @@
+[
+  {
+    "weights": "yolo11n.pt",
+    "split": "val",
+    "metrics": {
+      "metrics/precision(B)": 0.8463746729111646,
+      "metrics/recall(B)": 0.6373402265891186,
+      "metrics/mAP50(B)": 0.8565585086747878,
+      "metrics/mAP50-95(B)": 0.6080912804430426,
+      "fitness": 0.6080912804430426
+    },
+    "imgsz": 640,
+    "batch": 1,
+    "per_class_ap": [
+      {
+        "class_id": 0,
+        "ap50": 0.6410952380952382,
+        "ap50_95": 0.2940310713625753
+      },
+      {
+        "class_id": 16,
+        "ap50": 0.995,
+        "ap50_95": 0.6965
+      },
+      {
+        "class_id": 17,
+        "ap50": 0.995,
+        "ap50_95": 0.46121428571428574
+      },
+      {
+        "class_id": 20,
+        "ap50": 0.5182558139534884,
+        "ap50_95": 0.30630232558139536
+      },
+      {
+        "class_id": 25,
+        "ap50": 0.995,
+        "ap50_95": 0.9949999999999999
+      },
+      {
+        "class_id": 58,
+        "ap50": 0.995,
+        "ap50_95": 0.8955
+      }
+    ],
+    "artifacts": "C:\\Users\\Sathwik\\Downloads\\SentialVision AI\\runs\\detect\\val-6"
+  },
+  {
+    "weights": "runs/detect/data/training/smoke/weights/best.pt",
+    "split": "val",
+    "metrics": {
+      "metrics/precision(B)": 0.6958857678209962,
+      "metrics/recall(B)": 0.6543254680282405,
+      "metrics/mAP50(B)": 0.8069619514472456,
+      "metrics/mAP50-95(B)": 0.6153992029520635,
+      "fitness": 0.6153992029520635
+    },
+    "imgsz": 640,
+    "batch": 1,
+    "per_class_ap": [
+      {
+        "class_id": 0,
+        "ap50": 0.6142717086834735,
+        "ap50_95": 0.28564521771238194
+      },
+      {
+        "class_id": 16,
+        "ap50": 0.995,
+        "ap50_95": 0.6965
+      },
+      {
+        "class_id": 17,
+        "ap50": 0.995,
+        "ap50_95": 0.6712499999999999
+      },
+      {
+        "class_id": 20,
+        "ap50": 0.2475,
+        "ap50_95": 0.1485
+      },
+      {
+        "class_id": 25,
+        "ap50": 0.995,
+        "ap50_95": 0.9949999999999999
+      },
+      {
+        "class_id": 58,
+        "ap50": 0.995,
+        "ap50_95": 0.8955
+      }
+    ],
+    "artifacts": "C:\\Users\\Sathwik\\Downloads\\SentialVision AI\\runs\\detect\\val-7"
+  }
+]

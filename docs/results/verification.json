@@ -1,0 +1,68 @@
+{
+  "job": {
+    "id": "c3a86aa6-aa50-5ea7-8652-61a28e84c3a5",
+    "video_id": "5aaa5173-d9b5-4756-9880-2c2c83eca4a0",
+    "state": "completed",
+    "progress": 1.0,
+    "error": null,
+    "attempts": 1,
+    "created": "2026-10-16T06:12:47.747108",
+    "config": {
+      "video_id": "5aaa5173-d9b5-4756-9880-2c2c83eca4a0",
+      "camera_id": null,
+      "capture_seconds": 30,
+      "tracker": "bytetrack",
+      "rule_ids": [
+        "20023ef0-c445-4c4d-8657-0ecabdda308f"
+      ],
+      "confidence": 0.25,
+      "sample_every": 1,
+      "rules": [
+        {
+          "name": "DEMO person intrusion",
+          "version": 1,
+          "kind": "intrusion",
+          "zone_id": "24ec9227-06b3-48c6-a19d-2cb10fd2d28f",
+          "classes": [
+            "person"
+          ],
+          "persistence": 0.3,
+          "cooldown": 10,
+          "threshold": 1,
+          "line": null,
+          "direction": "both",
+          "severity": "warning",
+          "exit_grace": 0,
+          "exit_margin": 0,
+          "id": "20023ef0-c445-4c4d-8657-0ecabdda308f",
+          "created": "2026-10-16T06:12:47.695116"
+        }
+      ],
+      "zones": {
+        "24ec9227-06b3-48c6-a19d-2cb10fd2d28f": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "model": "yolo11n.pt"
+    }
+  },
+  "events": 4,
+  "evidence_bytes": 179804,
+  "review": "confirmed",
+  "fixture": "static public bus image repeated 30 frames; not benchmark ground truth"
+}

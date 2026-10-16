@@ -1,0 +1,25 @@
+{
+  "unit": "source_video",
+  "seed": 42,
+  "replicates": 2000,
+  "videos": 2,
+  "intervals_95": {
+    "precision": [
+      0.0,
+      1.0
+    ],
+    "recall": [
+      0.0,
+      1.0
+    ],
+    "f1": [
+      0.0,
+      1.0
+    ],
+    "false_alarms_per_video_hour": [
+      0.0,
+      0.0
+    ]
+  },
+  "scope": "Synthetic trajectories only; tool verification, not industrial performance or statistical evidence"
+}

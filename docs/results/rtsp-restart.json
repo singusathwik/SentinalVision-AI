@@ -1,0 +1,8 @@
+{
+  "scope": "localhost RTSP restart fixture, no physical camera",
+  "frames": 185,
+  "reconnects": 2,
+  "first_timestamp": 3.3221831999981077,
+  "last_timestamp": 22.72922919999692,
+  "strictly_monotonic": true
+}

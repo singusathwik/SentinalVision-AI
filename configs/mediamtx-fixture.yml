@@ -1,0 +1,11 @@
+# Loopback test server only. Download MediaMTX separately from its official release.
+rtspAddress: 127.0.0.1:8554
+rtspTransports: [tcp]
+rtmp: no
+hls: no
+webrtc: no
+srt: no
+moq: no
+paths:
+  all_others:
+    source: publisher
